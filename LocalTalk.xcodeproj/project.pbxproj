@@ -14,7 +14,6 @@
 		889A2F8817EE7A1300498DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2F8717EE7A1300498DF5 /* main.m */; };
 		889A2F8C17EE7A1300498DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2F8B17EE7A1300498DF5 /* AppDelegate.m */; };
 		889A2F8F17EE7A1300498DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889A2F8D17EE7A1300498DF5 /* Main.storyboard */; };
-		889A2F9417EE7A1300498DF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889A2F9317EE7A1300498DF5 /* Images.xcassets */; };
 		889A2F9B17EE7A1300498DF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A2F9A17EE7A1300498DF5 /* XCTest.framework */; };
 		889A2F9C17EE7A1300498DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A2F7B17EE7A1300498DF5 /* Foundation.framework */; };
 		889A2F9D17EE7A1300498DF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A2F7F17EE7A1300498DF5 /* UIKit.framework */; };
@@ -57,6 +56,8 @@
 		CA82D3DC18098D9500CCE4CF /* basic_auth.php in Resources */ = {isa = PBXBuildFile; fileRef = CA82D3B318098D9400CCE4CF /* basic_auth.php */; };
 		CA82D3DD18098D9500CCE4CF /* digest_auth.php in Resources */ = {isa = PBXBuildFile; fileRef = CA82D3B418098D9400CCE4CF /* digest_auth.php */; };
 		CA82D3EF18098EF000CCE4CF /* fileUploadEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82D3EE18098EF000CCE4CF /* fileUploadEngine.m */; };
+		CA82D3F51809CD6400CCE4CF /* Pods.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CA82D3F41809CD6400CCE4CF /* Pods.xcconfig */; };
+		CADCFA4F1809DD1600912D49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADCFA4E1809DD1600912D49 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -109,7 +110,6 @@
 		889A2F8A17EE7A1300498DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		889A2F8B17EE7A1300498DF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		889A2F8E17EE7A1300498DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		889A2F9317EE7A1300498DF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		889A2F9917EE7A1300498DF5 /* LocalTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		889A2F9A17EE7A1300498DF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		889A2FA217EE7A1300498DF5 /* LocalTalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalTalkTests-Info.plist"; sourceTree = "<group>"; };
@@ -130,7 +130,8 @@
 		889A2FC517EE9E9900498DF5 /* chatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatCell.h; sourceTree = "<group>"; };
 		889A2FC617EE9E9900498DF5 /* chatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatCell.m; sourceTree = "<group>"; };
 		889A2FC817EEC73100498DF5 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
-		9496876ADECC4C79AFD04357 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8975AC804EDB44B686433927 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19D41CBCB5340F5A7389E38 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CA805FFF18091483000D6798 /* NearbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NearbyViewController.h; path = ../NearbyViewController.h; sourceTree = "<group>"; };
 		CA80600018091483000D6798 /* NearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NearbyViewController.m; path = ../NearbyViewController.m; sourceTree = "<group>"; };
 		CA806002180917D3000D6798 /* shoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shoutCell.h; sourceTree = "<group>"; };
@@ -180,7 +181,8 @@
 		CA82D3B418098D9400CCE4CF /* digest_auth.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = digest_auth.php; sourceTree = "<group>"; };
 		CA82D3ED18098EF000CCE4CF /* fileUploadEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileUploadEngine.h; sourceTree = "<group>"; };
 		CA82D3EE18098EF000CCE4CF /* fileUploadEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fileUploadEngine.m; sourceTree = "<group>"; };
-		DEA0912178314F949641CD5F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA82D3F41809CD6400CCE4CF /* Pods.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		CADCFA4E1809DD1600912D49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,7 +221,7 @@
 				889A2FA017EE7A1300498DF5 /* LocalTalkTests */,
 				889A2F7A17EE7A1300498DF5 /* Frameworks */,
 				889A2F7917EE7A1300498DF5 /* Products */,
-				9496876ADECC4C79AFD04357 /* Pods.xcconfig */,
+				B19D41CBCB5340F5A7389E38 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,6 +237,7 @@
 		889A2F7A17EE7A1300498DF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA82D3F41809CD6400CCE4CF /* Pods.xcconfig */,
 				CA82D34418098BC200CCE4CF /* Security.framework */,
 				CA82D34218098BBB00CCE4CF /* SystemConfiguration.framework */,
 				CA82D34018098BA500CCE4CF /* CFNetwork.framework */,
@@ -244,7 +247,7 @@
 				889A2F7D17EE7A1300498DF5 /* CoreGraphics.framework */,
 				889A2F7F17EE7A1300498DF5 /* UIKit.framework */,
 				889A2F9A17EE7A1300498DF5 /* XCTest.framework */,
-				DEA0912178314F949641CD5F /* libPods.a */,
+				8975AC804EDB44B686433927 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				CA82D3ED18098EF000CCE4CF /* fileUploadEngine.h */,
 				CA82D3EE18098EF000CCE4CF /* fileUploadEngine.m */,
 				CA82D34618098C2D00CCE4CF /* ShoutOutViewController.h */,
+				CADCFA4E1809DD1600912D49 /* Images.xcassets */,
 				CA82D34718098C2D00CCE4CF /* ShoutOutViewController.m */,
 				CA82D29118095C5200CCE4CF /* SignUpViewController.h */,
 				CA82D29218095C5200CCE4CF /* SignUpViewController.m */,
@@ -285,7 +289,6 @@
 				889A2FB717EE7A8200498DF5 /* LoginViewController.m */,
 				CA82D2961809767700CCE4CF /* SearchViewController.h */,
 				CA82D2971809767700CCE4CF /* SearchViewController.m */,
-				889A2F9317EE7A1300498DF5 /* Images.xcassets */,
 				889A2F8217EE7A1300498DF5 /* Supporting Files */,
 			);
 			path = LocalTalk;
@@ -525,10 +528,11 @@
 				CA82D3DA18098D9500CCE4CF /* README.mdown in Resources */,
 				CA82D3D918098D9500CCE4CF /* MKNetworkKit.xcworkspace in Resources */,
 				889A2FC917EEC73100498DF5 /* person.png in Resources */,
-				889A2F9417EE7A1300498DF5 /* Images.xcassets in Resources */,
+				CA82D3F51809CD6400CCE4CF /* Pods.xcconfig in Resources */,
 				CA82D3DD18098D9500CCE4CF /* digest_auth.php in Resources */,
 				CA82D3DB18098D9500CCE4CF /* SampleImage.jpg in Resources */,
 				889A2F8617EE7A1300498DF5 /* InfoPlist.strings in Resources */,
+				CADCFA4F1809DD1600912D49 /* Images.xcassets in Resources */,
 				889A2F8F17EE7A1300498DF5 /* Main.storyboard in Resources */,
 				CA82D3DC18098D9500CCE4CF /* basic_auth.php in Resources */,
 			);
@@ -557,7 +561,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/Pods/Pods-resources.sh\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E2E65A11D7074F98A7741C9B /* Check Pods Manifest.lock */ = {
@@ -731,7 +735,7 @@
 		};
 		889A2FAB17EE7A1300498DF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9496876ADECC4C79AFD04357 /* Pods.xcconfig */;
+			baseConfigurationReference = B19D41CBCB5340F5A7389E38 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -749,7 +753,7 @@
 		};
 		889A2FAC17EE7A1300498DF5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9496876ADECC4C79AFD04357 /* Pods.xcconfig */;
+			baseConfigurationReference = B19D41CBCB5340F5A7389E38 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

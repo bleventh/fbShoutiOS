@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B6E1C557-270C-4C64-93B6-156D87EDE094</string>
+	<string>0DFA2B4F-D39E-4329-A7FB-53CB0F1331B3</string>
 	<key>IDESourceControlProjectName</key>
 	<string>LocalTalk</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>22BDD905-D02C-42B2-9589-C66A2BCADF20</key>
+		<string>ssh://github.com/MugunthKumar/MKNetworkKit.git</string>
 		<key>DCBC825E-EF22-49D2-A839-AB13B64B681E</key>
 		<string>ssh://github.com/MugunthKumar/MKNetworkKit.git</string>
 		<key>F4BE0C19-B5C7-4C1E-A5A4-9BEE4BF7E6D5</key>
@@ -19,6 +21,8 @@
 	<string>LocalTalk.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>22BDD905-D02C-42B2-9589-C66A2BCADF20</key>
+		<string>../../LocalTalk/MKNetworkKits</string>
 		<key>DCBC825E-EF22-49D2-A839-AB13B64B681E</key>
 		<string>../../LocalTalk/MKNetworkKit</string>
 		<key>F4BE0C19-B5C7-4C1E-A5A4-9BEE4BF7E6D5</key>
@@ -47,6 +51,14 @@
 			<string>DCBC825E-EF22-49D2-A839-AB13B64B681E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MKNetworkKit</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>22BDD905-D02C-42B2-9589-C66A2BCADF20</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MKNetworkKits</string>
 		</dict>
 	</array>
 </dict>

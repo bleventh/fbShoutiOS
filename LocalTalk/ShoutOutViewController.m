@@ -9,6 +9,7 @@
 #import "ShoutOutViewController.h"
 #import "fileUploadEngine.h"
 #import "TwerkAPI.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface ShoutOutViewController ()
 @property (nonatomic, retain) fileUploadEngine * flUploadEngine;
@@ -29,6 +30,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+   [self.shoutText becomeFirstResponder];
 	// Do any additional setup after loading the view.
 }
 
@@ -118,6 +120,22 @@
 
    [self.flOperation addCompletionHandler:^(MKNetworkOperation* operation) {
       NSLog(@"%@", [operation responseString]);
+      NSError *error = nil;
+      NSDictionary *response = [NSJSONSerialization
+                            JSONObjectWithData:[operation responseData]
+                            options:kNilOptions
+                            error:&error];
+      NSLog(@"%@", [response valueForKey:@"media"]);
+      NSString *src = [[response valueForKey:@"media"] valueForKey:@"src"];
+      self.shoutImage.layer.cornerRadius = 160.0;
+      self.shoutImage.layer.masksToBounds = YES;
+      self.shoutImage.layer.borderColor = [UIColor lightGrayColor].CGColor;
+      self.shoutImage.layer.borderWidth = 1.0;
+
+      self.shoutImage.imageURL = [NSURL URLWithString:src];
+
+      //[[operation responseData] objectFromJSONData];
+      //[operation responseData];
       /*
        This is where you handle a successful 200 response
        */
