@@ -238,10 +238,10 @@
             </objects>
             <point key="canvasLocation" x="3095" y="-1339"/>
         </scene>
-        <!--View Controller - Friends-->
+        <!--Shout Out View Controller - Friends-->
         <scene sceneID="IF3-PJ-ShP">
             <objects>
-                <viewController id="Rms-GM-JFL" sceneMemberID="viewController">
+                <viewController id="Rms-GM-JFL" customClass="ShoutOutViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uB7-69-SKx"/>
                         <viewControllerLayoutGuide type="bottom" id="2bS-sX-DbL"/>
@@ -249,6 +249,18 @@
                     <view key="view" contentMode="scaleToFill" id="1S0-fZ-5F5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OL9-Vr-aDa">
+                                <rect key="frame" x="112" y="252" width="96" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="File Upload">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fileUploadAction:" destination="Rms-GM-JFL" eventType="touchUpInside" id="iYy-ka-5TV"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Friends" id="Dki-NL-sBz"/>

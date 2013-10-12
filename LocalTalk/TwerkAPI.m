@@ -9,7 +9,7 @@
 #import "TwerkAPI.h"
 #import "SecureUDID.h"
 
-#define URL_BASE @"http://scottshout.y2klol.com/0.1"
+
 
 @interface TwerkAPI()
 
@@ -17,7 +17,6 @@
 @property (strong, nonatomic) NSString *key;
 @property (strong, nonatomic) NSString *uuid;
 @property (strong, nonatomic) NSString *authkey;
-
 @end
 
 @implementation TwerkAPI
@@ -46,7 +45,6 @@
     
     return self;
 }
-
 
 + (id)sharedAPI
 {

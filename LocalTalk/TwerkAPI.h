@@ -5,7 +5,8 @@
 //  Created by Scott Vanderlind on 9/8/13.
 //  Copyright (c) 2013 Bing Bang Boom. All rights reserved.
 //
-
+#define URL_BASE @"http://scottshout.y2klol.com/0.1"
+#define URL_BASE_NO_HTTP @"scottshout.y2klol.com/0.1"
 #import <Foundation/Foundation.h>
 
 typedef void (^FetchBlock)(NSDictionary *items, NSError *error);
@@ -28,5 +29,7 @@ typedef void (^FetchBlock)(NSDictionary *items, NSError *error);
 - (NSDictionary *)getAlert;
 - (NSDictionary *)post:(NSString *)endpoint parameters:(NSMutableDictionary *)params;
 */
+
+@property (strong, nonatomic, readonly) NSString *authkey;
 
 @end

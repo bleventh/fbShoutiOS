@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5D7BE97D-70D0-4BD5-A617-5BD6D6946F9F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LocalTalk</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F4BE0C19-B5C7-4C1E-A5A4-9BEE4BF7E6D5</key>
+		<string>ssh://github.com/bleventh/fbShoutiOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LocalTalk.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F4BE0C19-B5C7-4C1E-A5A4-9BEE4BF7E6D5</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/bleventh/fbShoutiOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F4BE0C19-B5C7-4C1E-A5A4-9BEE4BF7E6D5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F4BE0C19-B5C7-4C1E-A5A4-9BEE4BF7E6D5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>fbShoutiOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
