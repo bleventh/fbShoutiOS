@@ -14,13 +14,20 @@
 		889A2F8817EE7A1300498DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2F8717EE7A1300498DF5 /* main.m */; };
 		889A2F8C17EE7A1300498DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2F8B17EE7A1300498DF5 /* AppDelegate.m */; };
 		889A2F8F17EE7A1300498DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889A2F8D17EE7A1300498DF5 /* Main.storyboard */; };
-		889A2F9217EE7A1300498DF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2F9117EE7A1300498DF5 /* ViewController.m */; };
 		889A2F9417EE7A1300498DF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889A2F9317EE7A1300498DF5 /* Images.xcassets */; };
 		889A2F9B17EE7A1300498DF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A2F9A17EE7A1300498DF5 /* XCTest.framework */; };
 		889A2F9C17EE7A1300498DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A2F7B17EE7A1300498DF5 /* Foundation.framework */; };
 		889A2F9D17EE7A1300498DF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A2F7F17EE7A1300498DF5 /* UIKit.framework */; };
 		889A2FA517EE7A1300498DF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 889A2FA317EE7A1300498DF5 /* InfoPlist.strings */; };
 		889A2FA717EE7A1300498DF5 /* LocalTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2FA617EE7A1300498DF5 /* LocalTalkTests.m */; };
+		889A2FB417EE7A2A00498DF5 /* SecureUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2FB117EE7A2A00498DF5 /* SecureUDID.m */; };
+		889A2FB517EE7A2A00498DF5 /* TwerkAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2FB317EE7A2A00498DF5 /* TwerkAPI.m */; };
+		889A2FB817EE7A8200498DF5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2FB717EE7A8200498DF5 /* LoginViewController.m */; };
+		889A2FBB17EE865E00498DF5 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2FBA17EE865E00498DF5 /* InboxViewController.m */; };
+		889A2FBE17EE8F4000498DF5 /* messageThreadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2FBD17EE8F4000498DF5 /* messageThreadCell.m */; };
+		889A2FC417EE9C4F00498DF5 /* chatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2FC317EE9C4F00498DF5 /* chatViewController.m */; };
+		889A2FC717EE9E9900498DF5 /* chatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2FC617EE9E9900498DF5 /* chatCell.m */; };
+		889A2FC917EEC73100498DF5 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 889A2FC817EEC73100498DF5 /* person.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +52,27 @@
 		889A2F8A17EE7A1300498DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		889A2F8B17EE7A1300498DF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		889A2F8E17EE7A1300498DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		889A2F9017EE7A1300498DF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		889A2F9117EE7A1300498DF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		889A2F9317EE7A1300498DF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		889A2F9917EE7A1300498DF5 /* LocalTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		889A2F9A17EE7A1300498DF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		889A2FA217EE7A1300498DF5 /* LocalTalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalTalkTests-Info.plist"; sourceTree = "<group>"; };
 		889A2FA417EE7A1300498DF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		889A2FA617EE7A1300498DF5 /* LocalTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalTalkTests.m; sourceTree = "<group>"; };
+		889A2FB017EE7A2A00498DF5 /* SecureUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecureUDID.h; sourceTree = "<group>"; };
+		889A2FB117EE7A2A00498DF5 /* SecureUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureUDID.m; sourceTree = "<group>"; };
+		889A2FB217EE7A2A00498DF5 /* TwerkAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwerkAPI.h; sourceTree = "<group>"; };
+		889A2FB317EE7A2A00498DF5 /* TwerkAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwerkAPI.m; sourceTree = "<group>"; };
+		889A2FB617EE7A8200498DF5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		889A2FB717EE7A8200498DF5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		889A2FB917EE865E00498DF5 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		889A2FBA17EE865E00498DF5 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		889A2FBC17EE8F4000498DF5 /* messageThreadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageThreadCell.h; sourceTree = "<group>"; };
+		889A2FBD17EE8F4000498DF5 /* messageThreadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messageThreadCell.m; sourceTree = "<group>"; };
+		889A2FC217EE9C4F00498DF5 /* chatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatViewController.h; sourceTree = "<group>"; };
+		889A2FC317EE9C4F00498DF5 /* chatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatViewController.m; sourceTree = "<group>"; };
+		889A2FC517EE9E9900498DF5 /* chatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatCell.h; sourceTree = "<group>"; };
+		889A2FC617EE9E9900498DF5 /* chatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatCell.m; sourceTree = "<group>"; };
+		889A2FC817EEC73100498DF5 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +132,23 @@
 		889A2F8117EE7A1300498DF5 /* LocalTalk */ = {
 			isa = PBXGroup;
 			children = (
+				889A2FB017EE7A2A00498DF5 /* SecureUDID.h */,
+				889A2FB117EE7A2A00498DF5 /* SecureUDID.m */,
+				889A2FB217EE7A2A00498DF5 /* TwerkAPI.h */,
+				889A2FB317EE7A2A00498DF5 /* TwerkAPI.m */,
 				889A2F8A17EE7A1300498DF5 /* AppDelegate.h */,
 				889A2F8B17EE7A1300498DF5 /* AppDelegate.m */,
 				889A2F8D17EE7A1300498DF5 /* Main.storyboard */,
-				889A2F9017EE7A1300498DF5 /* ViewController.h */,
-				889A2F9117EE7A1300498DF5 /* ViewController.m */,
+				889A2FC517EE9E9900498DF5 /* chatCell.h */,
+				889A2FC617EE9E9900498DF5 /* chatCell.m */,
+				889A2FC217EE9C4F00498DF5 /* chatViewController.h */,
+				889A2FC317EE9C4F00498DF5 /* chatViewController.m */,
+				889A2FBC17EE8F4000498DF5 /* messageThreadCell.h */,
+				889A2FBD17EE8F4000498DF5 /* messageThreadCell.m */,
+				889A2FB917EE865E00498DF5 /* InboxViewController.h */,
+				889A2FBA17EE865E00498DF5 /* InboxViewController.m */,
+				889A2FB617EE7A8200498DF5 /* LoginViewController.h */,
+				889A2FB717EE7A8200498DF5 /* LoginViewController.m */,
 				889A2F9317EE7A1300498DF5 /* Images.xcassets */,
 				889A2F8217EE7A1300498DF5 /* Supporting Files */,
 			);
@@ -126,6 +158,7 @@
 		889A2F8217EE7A1300498DF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				889A2FC817EEC73100498DF5 /* person.png */,
 				889A2F8317EE7A1300498DF5 /* LocalTalk-Info.plist */,
 				889A2F8417EE7A1300498DF5 /* InfoPlist.strings */,
 				889A2F8717EE7A1300498DF5 /* main.m */,
@@ -228,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				889A2FC917EEC73100498DF5 /* person.png in Resources */,
 				889A2F9417EE7A1300498DF5 /* Images.xcassets in Resources */,
 				889A2F8617EE7A1300498DF5 /* InfoPlist.strings in Resources */,
 				889A2F8F17EE7A1300498DF5 /* Main.storyboard in Resources */,
@@ -249,9 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				889A2F9217EE7A1300498DF5 /* ViewController.m in Sources */,
+				889A2FB417EE7A2A00498DF5 /* SecureUDID.m in Sources */,
+				889A2FB817EE7A8200498DF5 /* LoginViewController.m in Sources */,
 				889A2F8C17EE7A1300498DF5 /* AppDelegate.m in Sources */,
+				889A2FC717EE9E9900498DF5 /* chatCell.m in Sources */,
+				889A2FBE17EE8F4000498DF5 /* messageThreadCell.m in Sources */,
+				889A2FB517EE7A2A00498DF5 /* TwerkAPI.m in Sources */,
 				889A2F8817EE7A1300498DF5 /* main.m in Sources */,
+				889A2FC417EE9C4F00498DF5 /* chatViewController.m in Sources */,
+				889A2FBB17EE865E00498DF5 /* InboxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

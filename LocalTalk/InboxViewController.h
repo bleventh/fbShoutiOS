@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InboxViewController.h
 //  LocalTalk
 //
 //  Created by Scott Vanderlind on 9/21/13.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface InboxViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *threadsTable;
 
 @end
