@@ -9,7 +9,7 @@
 #import "TwerkAPI.h"
 #import "SecureUDID.h"
 
-#define URL_BASE @"http://talk.y2klol.com/0.1"
+#define URL_BASE @"http://scottshout.y2klol.com/0.1"
 
 @interface TwerkAPI()
 
@@ -94,7 +94,7 @@
         NSMutableURLRequest *postRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
         
         [postRequest setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
-        [postRequest addValue:@"LocalTalk v0.1" forHTTPHeaderField:@"User-Agent"];
+        [postRequest addValue:@"Shout v0.1" forHTTPHeaderField:@"User-Agent"];
         [postRequest addValue:self.authkey forHTTPHeaderField:@"TALK-KEY"];
         [postRequest setHTTPMethod:method];
         

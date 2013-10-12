@@ -28,7 +28,36 @@
 		889A2FC417EE9C4F00498DF5 /* chatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2FC317EE9C4F00498DF5 /* chatViewController.m */; };
 		889A2FC717EE9E9900498DF5 /* chatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 889A2FC617EE9E9900498DF5 /* chatCell.m */; };
 		889A2FC917EEC73100498DF5 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 889A2FC817EEC73100498DF5 /* person.png */; };
+		CA80600118091483000D6798 /* NearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA80600018091483000D6798 /* NearbyViewController.m */; };
+		CA806004180917D3000D6798 /* shoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA806003180917D3000D6798 /* shoutCell.m */; };
+		CA80600618092579000D6798 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA80600518092579000D6798 /* CoreLocation.framework */; };
+		CA82D2901809543000CCE4CF /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82D28F1809543000CCE4CF /* AsyncImageView.m */; };
+		CA82D29318095C5200CCE4CF /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82D29218095C5200CCE4CF /* SignUpViewController.m */; };
+		CA82D2951809716E00CCE4CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA82D2941809716E00CCE4CF /* QuartzCore.framework */; };
+		CA82D2981809767700CCE4CF /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82D2971809767700CCE4CF /* SearchViewController.m */; };
+		CA82D29B180978F600CCE4CF /* SearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA82D29A180978F600CCE4CF /* SearchCell.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		CA8060F7180951FF000D6798 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.lex;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# $(LEX)\n";
+		};
+		CA8060F818095202000D6798 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = file.bplist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		889A2F9E17EE7A1300498DF5 /* PBXContainerItemProxy */ = {
@@ -73,6 +102,22 @@
 		889A2FC517EE9E9900498DF5 /* chatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatCell.h; sourceTree = "<group>"; };
 		889A2FC617EE9E9900498DF5 /* chatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatCell.m; sourceTree = "<group>"; };
 		889A2FC817EEC73100498DF5 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		9496876ADECC4C79AFD04357 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CA805FFF18091483000D6798 /* NearbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NearbyViewController.h; path = ../NearbyViewController.h; sourceTree = "<group>"; };
+		CA80600018091483000D6798 /* NearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NearbyViewController.m; path = ../NearbyViewController.m; sourceTree = "<group>"; };
+		CA806002180917D3000D6798 /* shoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shoutCell.h; sourceTree = "<group>"; };
+		CA806003180917D3000D6798 /* shoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shoutCell.m; sourceTree = "<group>"; };
+		CA80600518092579000D6798 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CA82D28E1809543000CCE4CF /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		CA82D28F1809543000CCE4CF /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		CA82D29118095C5200CCE4CF /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		CA82D29218095C5200CCE4CF /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		CA82D2941809716E00CCE4CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CA82D2961809767700CCE4CF /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		CA82D2971809767700CCE4CF /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		CA82D299180978F600CCE4CF /* SearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCell.h; sourceTree = "<group>"; };
+		CA82D29A180978F600CCE4CF /* SearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCell.m; sourceTree = "<group>"; };
+		DEA0912178314F949641CD5F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA82D2951809716E00CCE4CF /* QuartzCore.framework in Frameworks */,
+				CA80600618092579000D6798 /* CoreLocation.framework in Frameworks */,
 				889A2F7E17EE7A1300498DF5 /* CoreGraphics.framework in Frameworks */,
 				889A2F8017EE7A1300498DF5 /* UIKit.framework in Frameworks */,
 				889A2F7C17EE7A1300498DF5 /* Foundation.framework in Frameworks */,
@@ -106,6 +153,7 @@
 				889A2FA017EE7A1300498DF5 /* LocalTalkTests */,
 				889A2F7A17EE7A1300498DF5 /* Frameworks */,
 				889A2F7917EE7A1300498DF5 /* Products */,
+				9496876ADECC4C79AFD04357 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,10 +169,13 @@
 		889A2F7A17EE7A1300498DF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA82D2941809716E00CCE4CF /* QuartzCore.framework */,
+				CA80600518092579000D6798 /* CoreLocation.framework */,
 				889A2F7B17EE7A1300498DF5 /* Foundation.framework */,
 				889A2F7D17EE7A1300498DF5 /* CoreGraphics.framework */,
 				889A2F7F17EE7A1300498DF5 /* UIKit.framework */,
 				889A2F9A17EE7A1300498DF5 /* XCTest.framework */,
+				DEA0912178314F949641CD5F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,9 +187,18 @@
 				889A2FB117EE7A2A00498DF5 /* SecureUDID.m */,
 				889A2FB217EE7A2A00498DF5 /* TwerkAPI.h */,
 				889A2FB317EE7A2A00498DF5 /* TwerkAPI.m */,
+				CA805FFF18091483000D6798 /* NearbyViewController.h */,
+				CA80600018091483000D6798 /* NearbyViewController.m */,
+				CA82D299180978F600CCE4CF /* SearchCell.h */,
+				CA82D29A180978F600CCE4CF /* SearchCell.m */,
 				889A2F8A17EE7A1300498DF5 /* AppDelegate.h */,
 				889A2F8B17EE7A1300498DF5 /* AppDelegate.m */,
 				889A2F8D17EE7A1300498DF5 /* Main.storyboard */,
+				CA82D29118095C5200CCE4CF /* SignUpViewController.h */,
+				CA82D29218095C5200CCE4CF /* SignUpViewController.m */,
+				CA82D28D1809543000CCE4CF /* AsyncImageView */,
+				CA806002180917D3000D6798 /* shoutCell.h */,
+				CA806003180917D3000D6798 /* shoutCell.m */,
 				889A2FC517EE9E9900498DF5 /* chatCell.h */,
 				889A2FC617EE9E9900498DF5 /* chatCell.m */,
 				889A2FC217EE9C4F00498DF5 /* chatViewController.h */,
@@ -149,6 +209,8 @@
 				889A2FBA17EE865E00498DF5 /* InboxViewController.m */,
 				889A2FB617EE7A8200498DF5 /* LoginViewController.h */,
 				889A2FB717EE7A8200498DF5 /* LoginViewController.m */,
+				CA82D2961809767700CCE4CF /* SearchViewController.h */,
+				CA82D2971809767700CCE4CF /* SearchViewController.m */,
 				889A2F9317EE7A1300498DF5 /* Images.xcassets */,
 				889A2F8217EE7A1300498DF5 /* Supporting Files */,
 			);
@@ -185,6 +247,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CA82D28D1809543000CCE4CF /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				CA82D28E1809543000CCE4CF /* AsyncImageView.h */,
+				CA82D28F1809543000CCE4CF /* AsyncImageView.m */,
+			);
+			path = AsyncImageView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,11 +263,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 889A2FAA17EE7A1300498DF5 /* Build configuration list for PBXNativeTarget "LocalTalk" */;
 			buildPhases = (
+				E2E65A11D7074F98A7741C9B /* Check Pods Manifest.lock */,
 				889A2F7417EE7A1300498DF5 /* Sources */,
 				889A2F7517EE7A1300498DF5 /* Frameworks */,
 				889A2F7617EE7A1300498DF5 /* Resources */,
+				9BE904A48A2847778861C30D /* Copy Pods Resources */,
 			);
 			buildRules = (
+				CA8060F818095202000D6798 /* PBXBuildRule */,
+				CA8060F7180951FF000D6798 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -232,6 +307,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Scott Vanderlind";
 				TargetAttributes = {
+					889A2F7717EE7A1300498DF5 = {
+						DevelopmentTeam = 4SAU2A56Y4;
+					};
 					889A2F9817EE7A1300498DF5 = {
 						TestTargetID = 889A2F7717EE7A1300498DF5;
 					};
@@ -278,19 +356,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9BE904A48A2847778861C30D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/Pods/Pods-resources.sh\n";
+			showEnvVarsInLog = 0;
+		};
+		E2E65A11D7074F98A7741C9B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		889A2F7417EE7A1300498DF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				889A2FB417EE7A2A00498DF5 /* SecureUDID.m in Sources */,
+				CA80600118091483000D6798 /* NearbyViewController.m in Sources */,
 				889A2FB817EE7A8200498DF5 /* LoginViewController.m in Sources */,
 				889A2F8C17EE7A1300498DF5 /* AppDelegate.m in Sources */,
+				CA806004180917D3000D6798 /* shoutCell.m in Sources */,
 				889A2FC717EE9E9900498DF5 /* chatCell.m in Sources */,
+				CA82D2981809767700CCE4CF /* SearchViewController.m in Sources */,
 				889A2FBE17EE8F4000498DF5 /* messageThreadCell.m in Sources */,
+				CA82D2901809543000CCE4CF /* AsyncImageView.m in Sources */,
 				889A2FB517EE7A2A00498DF5 /* TwerkAPI.m in Sources */,
 				889A2F8817EE7A1300498DF5 /* main.m in Sources */,
 				889A2FC417EE9C4F00498DF5 /* chatViewController.m in Sources */,
+				CA82D29B180978F600CCE4CF /* SearchCell.m in Sources */,
+				CA82D29318095C5200CCE4CF /* SignUpViewController.m in Sources */,
 				889A2FBB17EE865E00498DF5 /* InboxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,26 +532,36 @@
 		};
 		889A2FAB17EE7A1300498DF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9496876ADECC4C79AFD04357 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocalTalk/LocalTalk-Prefix.pch";
 				INFOPLIST_FILE = "LocalTalk/LocalTalk-Info.plist";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		889A2FAC17EE7A1300498DF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9496876ADECC4C79AFD04357 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocalTalk/LocalTalk-Prefix.pch";
 				INFOPLIST_FILE = "LocalTalk/LocalTalk-Info.plist";
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -500,6 +627,7 @@
 				889A2FAC17EE7A1300498DF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		889A2FAD17EE7A1300498DF5 /* Build configuration list for PBXNativeTarget "LocalTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +636,7 @@
 				889A2FAF17EE7A1300498DF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
